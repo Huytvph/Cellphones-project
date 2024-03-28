@@ -1,0 +1,1454 @@
+*::after::before {
+    box-sizing: inherit;
+}
+
+
+#layoutDesktop {
+    background: rgb(254, 247, 228);
+}
+
+.cps-Layout-OutLine {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #fff !important;
+}
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 62.5%;
+	font: inherit;
+	vertical-align: baseline;
+} */
+html {
+    text-size-adjust: 100%;
+    background-color: rgb(254, 247, 228);
+    font-size: 62.5%;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    /* text-rendering: optimizeLegibility; */
+}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: BlinkMacSystemFont, -apple-system, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+/* a:-webkit-any-link {
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+} */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: auto;
+}
+
+/* .container-betwens{
+    width: 1200;
+    margin: auto 0  ;
+} */
+#cpsHeader {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .06);
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    left: 0;
+
+    z-index: 1000;
+
+}
+
+header {
+    box-sizing: border-box;
+    outline: 1px solid #99cfe7;
+}
+
+#topBarHeader a {
+    margin: 0 auto;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(0deg, #d9062b, #d9062b, #d9062b, #d9062b);
+    /* background-image: linear-gradient(90deg,
+                rgb(217, 6, 43),
+                rgb(217, 6, 43),
+                rgb(217, 6, 43),
+                rgb(217, 6, 43),
+                rgb(217, 6, 43));
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-color: initial;
+    background-repeat: initial; */
+    -webkit-background-clip: text;
+    color: #fff;
+
+}
+
+/* 
+a {
+    outline: 1px solid #ff62ab !important;
+    cursor: pointer;
+    -webkit-text-decoration: none;
+    text-decoration: none;
+} */
+
+
+a:-webkit-any-link {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.topHeader-content {
+    display: flex;
+
+}
+
+#topBarHeader {
+    align-items: center;
+    background: #ffe891;
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+#bannerTopHead {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background: #e9efff;
+}
+
+#bannerTopHead .swiper-container {
+    list-style: none;
+    /* margin-left: auto;
+    margin-right: auto; */
+    background-color: #e9efff;
+
+}
+
+
+.swiper-wraper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+
+}
+
+.swiper-slide {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+
+}
+
+#cps-container-navbar {
+    background: #d9062b !important;
+}
+
+.cps-container-navbar-sticky {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+/* .navbar-sticky-logo{
+    display: flex;
+    height: 64px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 100%;
+} */
+/* .box-logo a img{
+    display: block;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    background-size: cover;
+
+
+} */
+.box-logo{
+    width: 220px;
+    background-image: url(/Cellpones/image/Desktop-Logo-tet2024.gif);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40px;
+    background-size: cover;
+    /* cursor: pointer; */
+    /* text-rendering: optimizeLegibility; */
+}
+/* .navbar-brand-button-home{
+    align-items: stretch;
+    flex-shrink: 0;
+    min-width: 3.25rem;
+    display: flex;
+} */
+/* 
+.logo-navbar img{
+    max-height: 1.75rem;
+    max-width: 300px;
+    display: block;
+} */
+.dropdown-trigger .box_local-store {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    box-sizing: border-box;
+    padding-right: 5px;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 8px;
+    color: #fff;
+}
+
+.img-local {
+    width: 20px;
+    height: 20px;
+    overflow: cover;
+    border-radius: 10px;
+    margin-top: 14px;
+}
+
+.fa-location-dot {
+    /* font-size: 40px; */
+    color: #fff;
+}
+
+.local-content-box-top {
+    font-size: 10px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.local-content-box-bot {
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-search {
+    border: 0;
+    border-radius: 0 10px 10px 0;
+    font-size: 1rem;
+    outline: none;
+    padding: 10px;
+    width: auto;
+    width: 200px;
+}
+
+.box-search .input {
+    text-align: left;
+    letter-spacing: 1px;
+    width: 100%;
+    height: 40px;
+    border-radius: 25px;
+    background: #ffffff;
+    border: 2px solid #dddddd;
+}
+/* .input-group-button .fa{
+    margin-right: 2px;
+    font-size: 12px;
+    color: black !important;
+}
+.fa-search::before{
+    content: "/002";
+} */
+.contact-hotline,
+.header-box-about-store,
+.header-box-search-item-product,
+.header-box-cart {
+    display: flex;
+    flex-direction: row;
+    color: #fff;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    height: 48px;
+    margin: 5px;
+}
+
+.contact-hotline:hover {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px !important;
+}
+
+.header-box-about-store:hover {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px !important;
+}
+
+.header-box-search-item-product:hover {
+    background-color: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px !important;
+
+}
+
+.header-box-cart:hover {
+    background: hsla(0, 0%, 100%, 0.5);
+    border-radius: 10px !important;
+}
+
+.fa-phone,
+.fa-location-dot,
+.fa-truck-fast,
+.fa-cart-shopping {
+    margin-left: 5x;
+    padding-left: 15px !important;
+
+    font-size: 30px;
+}
+
+.about-box-content,
+.header-box-about-content,
+.header-box-about-content,
+.header-box-about-content {
+    width: 80px;
+    line-height: 0.5;
+    padding-left: 10px;
+}
+
+.login-button {
+    display: flex;
+    flex-direction: column;
+    
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    background-color: hsla(0, 0%, 100%, 0.5) !important;
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.login-button a{
+    color: #fff;
+}
+.fa-circle-user {
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.about-contact p {
+    width: 80px;
+    text-align: center;
+}
+
+/* ------------------------Body-------------------------------- */
+
+.main-containerCPS-body {
+    background: #fff !important;
+    padding: 5px 10px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 0 auto;
+    /* position: relative; */
+    margin-top: 10px !important;
+    padding-top: 150px;
+}
+
+.block-top-home-flex {
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+
+}
+
+.label-menu-tree-items {
+    border-radius: 10px;
+    border: 1px solid #0000002b;
+    background: #f6f6f6;
+    /* display: flex;
+    justify-content: space-between;
+    grid-area: auto; */
+    padding-top: 10px;
+
+}
+
+.mega-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.mega-menu li {
+    position: relative;
+    flex: 1;
+    text-align: left;
+
+}
+
+.mega-menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.mega-menu span {
+    font-size: 13px;
+   line-height: 14px;
+    font-style: inherit;
+    font-weight: bold;
+}
+
+.fa-mobile-screen,
+.fa-laptop,
+.fa-headphones,
+.fa-clock,
+.fa-house-signal,
+.fa-usb,
+.fa-computer,
+.fa-tv,
+.fa-money-bill-transfer,
+.fa-mobile-retro,
+.fa-tags,
+.fa-newspaper {
+    height: 30px;
+    margin-right: 5px;
+    text-align: center;
+    width: 30px;
+    border: 10px;
+}
+/* .fa-mobile-screen,
+.fa-laptop,
+.fa-headphones,
+.fa-clock,
+.fa-house-signal,
+.fa-usb,
+.fa-computer,
+.fa-tv,
+.fa-money-bill-transfer,
+.fa-mobile-retro,
+.fa-tags,
+.fa-newspaper :hover{
+    color: red !important;
+} */
+.slide-swiper-pre {
+    margin: 10px;
+}
+
+.slideshow-swiper-container{
+    position: relative;
+    max-width: 800px;
+    margin: auto;
+}
+
+.slideshow-swiper-container .slides {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow-swiper-container .slides .slide {
+    width: 100%;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 100%;
+    /* display: flex; */
+}
+
+.slideshow-swiper-container .slides .slide .slide-image {
+    flex: 1;
+    position: relative; 
+}
+
+.slide-position{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.491);
+    padding: 5px;
+    border-radius: 5px;
+    bottom:40px;
+}
+/* .slide-content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+} */
+
+
+
+/* .slide-img {
+    width: 100%;
+    height: auto;
+} */
+
+.slideshow-swiper-container .prev,.slideshow-swiper-container  .next {
+    position: absolute;
+    top: 38%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    padding: 16px 24px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #33333343;
+    border-radius: 50%;
+}
+/* .slideshow-swiper-container .slides .slide .slide-image:hover + .prev,
+.slideshow-swiper-container .slides .slide .slide-image:hover + .next {
+    background-color: #33333343;
+
+} */
+.prev:hover, .next:hover{
+    background-color: #ff4b6c90;
+}
+.slideshow-swiper-container .prev {
+    left: 0;
+    transform: translateX(-10px);
+}
+
+.slideshow-swiper-container .next {
+    right: 0;
+    transform: translateX(10px);
+}
+
+.slideshow-swiper-container .dots {
+    text-align: center;
+}
+ .dot {
+    height: 15px;
+    width: 15px;
+    margin: 5px 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.slideshow-swiper-container .dots  .dot:hover{
+    cursor: pointer;
+    background-color: #d9062b ;
+}
+.active {
+    background-color: #d9062d37;
+}
+/* .active {
+    background-color: #717171;
+} */
+
+
+/* .slide-swiper-pre .card-image:hover img {
+    opacity: 0.8;
+    transform: scale(1.15);
+    transition: 1ms;
+    border-radius: 10px;
+} */
+
+.silde-swiper-pre-content {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: center;
+    justify-content: space-between;
+
+}
+
+.silde-swiper-pre-content .slide-content {
+    align-self: center;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 10px;
+    width: 135px;
+    border: 1px solid rgba(0, 0, 0, 0.064);
+    margin-top: 0px;
+}
+
+.silde-swiper-pre-content .slide-content:hover {
+    /* background: #d9062d32; */
+    border-bottom: 3px solid rgba(255, 0, 0, 0.662);
+}
+
+.silde-swiper-pre-content .slide-content a {
+    color: black;
+}
+
+.banner-right-content {
+    padding: 5px 5px;
+    border: 1px solid #0000002b;
+    border-radius: 10px;
+}
+
+.slide-swiper-pre .banner-right-content .banner-content-img {
+    display: flex;
+    gap: 100px;
+    margin-top: 15px;
+
+}
+
+.banner-right-content .banner-content-img .banner img {
+    margin-bottom: 15px;
+    float: left;
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px
+}
+
+
+/* .slide-swiper-pre .banner-right-content .banner-content-img .banner a{
+    background: url(/);
+} */
+
+.hozironal-banner-holidays img {
+    display: inline-block;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    background: url();
+}
+
+.box-hotsale {
+    border-radius: 16px;
+    margin: 0 0 15px 0;
+    /* min height: 350px; */
+    padding: 5px;
+    background: url(/Cellpones/image/bg_new.webp) no-repeat;
+
+}
+
+.box-hotsale-title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 98%;
+    padding: 10px 8px 0;
+    height: 90px;
+}
+
+.box-tab-menu {
+    line-height: 24px;
+}
+
+.box-tab-menu .button-select-tab {
+    border-radius: 7px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px 15px 0;
+    padding: 4px 10px;
+    background: #fff;
+    color: #4a4a4a;
+    margin-bottom: 5px;
+}
+
+.box-tab-menu .button-select-tab:hover {
+    cursor: pointer;
+    background-color: #ffe891 color: #fff;
+}
+
+.box-tab-menu .box-image {
+    text-align: center;
+    height: auto;
+    width: 100%;
+}
+
+.box-tab-menu .box-cowndown {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+
+
+}
+
+.box-hotsale-content {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    /* gap: 4px; */
+    display: flex;
+    flex-direction: row !important;
+    overflow: hidden;
+    position: relative;
+    flex-flow: row;
+    padding: 5px;
+    height: 95%;
+    grid-area: auto;
+    list-style: none;
+    /* flex-wrap: wrap;
+    align-items: center;
+    justify-self: start;
+    justify-content: space-around   ; */
+    /* display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    justify-content: center;
+    justify-content: space-between; */
+
+}
+
+.swiper-slide-product {
+    display: flex;
+    /* overflow: hidden; */
+
+}
+
+.product__info {
+    /* padding: 10px; */
+    /* width: 200px; */
+    height: auto;
+    text-align: center;
+    /* box-shadow: #3c4043 0px 1px 1px 0px; */
+}
+
+.product__info:hover {
+    box-shadow: #3c4043 1px 2px 3px 0px;
+}
+
+.product__info-container {
+    height: 95%;
+    background-color: #fff;
+    position: relative;
+    width: auto;
+    border-radius: 10px;
+    margin: 15px 10px 5px 10px;
+    /* border: 1px solid #333; */
+    box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .1), 0 2px 6px 2px rgba(60, 64, 47, .15);
+}
+
+
+.product__info .product__image img {
+    text-align: center;
+    /* margin: 5px 0 0; */
+}
+
+.product__info .product__image img:hover {
+    scale: 1.1;
+    border-radius: 10px;
+    background-size: cover;
+
+}
+
+.product__info .product__name h3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-weight: 600;
+    height: 55px;
+    overflow: hidden;
+    position: relative;
+    font-weight: bold;
+    color: black;
+}
+
+.product__info .product__name h3:hover {
+    color: #d9062b;
+}
+
+.block-box-price {
+    align-items: center;
+    display: flex;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.1;
+    justify-content: space-between
+}
+
+.block-box-price .product__price--show {
+    color: red;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+.block-box-price .product__price--through {
+    color: #707070;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    -webkit-text-decoration: line-through;
+    text-decoration: line-through;
+    /* top: 1px; */
+    border-left: 20px;
+}
+
+.product__info .product__promotions .coupon-price {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 12px;
+    border: 1px dotted #ccc;
+}
+
+.product__price--percent {
+    background: url(/Cellpones/image/Hotsale/detail.svg) 50% no-repeat;
+    height: 31px;
+    left: -15px;
+    position: absolute;
+    top: -1px;
+    width: 80px;
+}
+
+.product__price--percent .product__price--percent-detail {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 5px 0 0;
+    text-align: center;
+    width: 100%;
+}
+
+.rating-items .bottom-div,
+.star-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+
+.heart-content {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+/* 
+.heart-content .heat-icon-first:hover{
+    cursor: pointer;
+    background: red;
+} */
+
+/* ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.Body-list-container-product-outstanding,
+.categoties-title,
+.brand-banner {
+    width: 1220px;
+    margin: 0 auto;
+    background: #fff;
+    height: auto;
+}
+
+
+.container-title-outstanding {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.title-left-outstanding {
+    font-family: 'PingFang SC', 'Helvetica Neue', Arial;
+    color: black;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+
+.title-left-outstanding :hover {
+    color: red;
+}
+
+.outstanding-right {
+    display: flex;
+    margin-left: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.related-tag-button__link {
+    background-color: #f3f4f6;
+    border: 1px solid #474737;
+    border-radius: 10px;
+    color: #444;
+    float: right;
+    font-size: 13px;
+    height: 25px;
+    padding: 5px 10px 0px 10px;
+    margin-right: 10px;
+    text-align: center;
+
+}
+
+.related-tag-button__link:hover {
+    background-color: rgb(233, 159, 174);
+    color: #ffF;
+}
+
+/* .container-content-outstanding-product {
+    display: flex;
+    flex-direction: row;
+    width: 1180px;
+} */
+
+.categoties-title {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.categoties-title-left,
+.categoties-title-right {
+    padding: 5px 10px 0 10px;
+    /* margin: 0 -20px 0 0 0; */
+    height: 40px;
+
+}
+
+.categoties-title-left p {
+    color: #444;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.categoties-title-left p:hover {
+    color: #d9062b;
+}
+
+.categoties-title-right p {
+    color: #444;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: end;
+
+}
+
+.categoties-title-right p:hover {
+    text-decoration: underline !important;
+}
+
+.box-bottum-phu-kien-1,
+.box-bottum-phu-kien-2,
+.box-bottum-phu-kien-3,
+.box-bottum-phu-kien-4,
+.box-bottum-phu-kien-5,
+.box-bottum-phu-kien-6,
+.box-bottum-phu-kien-7,
+.box-bottum-phu-kien-8,
+.box-bottum-phu-kien-9,
+.box-bottum-phu-kien-10,
+.box-bottum-phu-kien-11,
+.box-bottum-phu-kien-12,
+.box-bottum-phu-kien-13,
+.box-bottum-phu-kien-14,
+.box-bottum-phu-kien-15,
+.box-bottum-phu-kien-16,
+.box-bottum-phu-kien-17,
+.box-bottum-phu-kien-18,
+.box-bottum-phu-kien-19,
+.box-bottum-phu-kien-20,
+.box-bottum-phu-kien-21,
+.box-bottum-phu-kien-22,
+.box-bottum-phu-kien-23,
+.box-bottum-phu-kien-24,
+.box-bottum-phu-kien-25,
+.box-bottum-phu-kien-26,
+.box-bottum-phu-kien-27,
+.box-bottum-phu-kien-28,
+.box-bottum-phu-kien-29 {
+    background-color: rgb(242, 131, 118);
+    width: 120px;
+    min-height: 125px;
+    box-shadow: #3c4043 0px 1px 2px 0px;
+    line-height: 24px;
+    background-size: cover;
+    background-position: 100% 100%;
+    overflow: hidden;
+    display: block;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+}
+
+.box-bottum-items-phu-kien img {
+    height: 100px;
+
+}
+
+.box-bottum-items-phu-kien p {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 5px;
+    padding: 0 5px;
+    max-width: 100%;
+    word-break: break-word;
+}
+
+.box-bottum-phu-kien-1 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-1644.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-2 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-43.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-3 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-3.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-4 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-4.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-5 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/19.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-6 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-5.svg);
+}
+
+.box-bottum-phu-kien-7 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-6.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-8 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-7.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-9 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-8.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-10 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-9.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-11 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-10.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-12 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-11.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-13 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/12.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-14 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/13.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-15 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/14.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-16 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-15.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-17 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/18.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-18 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-15.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-19 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-16.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-20 {
+    background-image: url(/Cellpones/image/box-bottum-phu-kien/cate-17.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-21 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/1.svg);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-22 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/2.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-23 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/3.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-24 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/4.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-25 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/5.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-26 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/6.webp);
+}
+
+.box-bottum-phu-kien-27 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/7.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-28 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/8.webp);
+    background-repeat: no-repeat;
+}
+
+.box-bottum-phu-kien-29 {
+    background-image: url(/Cellpones/image/box-bottum-linh-kien-may-tinh/9.webp);
+    background-repeat: no-repeat;
+}
+
+.body-box-phu-kien {
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px;
+    gap: 15px;
+    justify-content: space-between
+}
+
+
+.brand-banner-flex {
+    display: flex;
+    /* justify-content: space-between; */
+    margin: 0 auto;
+    justify-content: center;
+    padding: 10px;
+}
+
+.swiper-slide-prev-1 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-students/dongho-hssv-sliding-2024.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-2 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-students/laptop-hssv-sliding-2024.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-3 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-students/ss-hssv-sliding-2024.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-4 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-students/vivo-hssv-sliding-2024.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-5 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-payment/hsbc690300-update-2401-2tr.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-6 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-payment/uob-690-300-uu-dai-thanhtoan-home.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-7 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-payment/uu-dai-eximbank-690-300.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-8 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-students/vivo-hssv-sliding-2024.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-9 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-brand/banner-sliding-apple-112.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-10 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-brand/SIS\ asus.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-11 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-brand/th-hieu-ss-0013.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.swiper-slide-prev-12 {
+    box-sizing: border-box;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    flex-shrink: 0;
+    align-items: center;
+    list-style: none;
+    width: 287.5px;
+    height: 125px;
+    background-image: url(/Cellpones/image/brand-banner-brand/xiaomi.webp);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2 px 4px -1px rgba(0, 0, 0, .06);
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+.main-footer {
+    background-color: #fff;
+}
+
+.main-body-footer {
+   
+
+}
+
+.columns-columns-flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.columns-one-quarter-desktop-box-one,
+.columns-one-quarter-desktop-box-two,
+.columns-one-quarter-desktop-box-three,
+.columns-one-quarter-desktop-box-four {
+    width: 24%;
+    display: block;
+    background: #7070700b;
+}
+
+.box-one-store {
+    margin-bottom: 0.75rem;
+}
+
+.mb3 {
+    line-height: 1.125;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #363636;
+}
+
+.box-one__call-content {
+    padding-left: 10px;
+}
+
+.box-one__call-content .link {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.pay-gate-way__content {
+    padding-left: 10px;
+}
+
+.pay-gate-way__content .list-link {
+    list-style: none;
+    padding: 0;
+}
+
+.pay-gate-way__content .link-rounded {
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 3px !important;
+    margin-bottom: 5px;
+}
+
+@media (min-width:48em) {
+    /* Mobile to Tablets */
+}
+
+.list-link .link {
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+/* https://www.facebook.com/CellphoneSVietnam
+https://www.instagram.com/cellphonesvn/
+https://www.tiktok.com/@cellphones.official
+https://oa.zalo.me/3894196696036261863 */
+
+.box-four__social {
+    display: flex;
+    padding-left: 10px;
+}
+
+.corp-member__name {
+    color: #3f3f3f;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-bottom: 5px;
+}
+.box-four__corp-members{
+    padding-left: 10px;
+}

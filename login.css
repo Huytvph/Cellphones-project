@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+.main-register{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-left: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 150px;
+    background-color: #fff;
+}
+.main-register h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.main-register .input-group {
+    margin-bottom: 20px;
+}
+
+.main-register .input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.main-register .input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.main-register .btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-register .btn-social {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.main-register .btn-social.btn-google {
+    background-color: #db4437;
+}
+
+.main-register .btn-social.btn-facebook {
+    background-color: #3b5998;
+}
+
+.main-register .btn:hover, .btn-social:hover {
+    background-color: #0056b3;
+}
